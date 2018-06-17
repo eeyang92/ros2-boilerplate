@@ -6,7 +6,7 @@ setup(
     name='boilerplate1',
     version='0.0.1',
     packages=[],
-    py_modules=[],
+    py_modules=['listener', 'talker'],
     install_requires=['setuptools'],
     author='Eric Yang',
     author_email='eeyang92@gmail.com',
@@ -24,8 +24,8 @@ setup(
     test_suite='test',
     entry_points={
         'console_scripts': [
-            'listener_py = listener_py:main',
-            'talker_py = talker_py:main',
+            'listener = listener:main',
+            'talker = talker:main',
         ],
     },
 )
