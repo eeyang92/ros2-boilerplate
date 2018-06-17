@@ -21,7 +21,6 @@ def main(args=None):
 
     node = rclpy.create_node('minimal_subscriber')
 
-
     node.create_subscription(
         String, 'topic', lambda msg: node.get_logger().info('I heard: "%s"' % msg.data)
     )
@@ -35,7 +34,6 @@ def main(args=None):
     # when the garbage collector destroys the node object)
     node.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

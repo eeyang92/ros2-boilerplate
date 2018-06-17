@@ -17,7 +17,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
-        'Topic :: Software Development',
+        'Topic :: Software Development'
     ],
     description='ROS2 Boilerplate V1',
     license='Apache License, Version 2.0',
@@ -26,6 +26,6 @@ setup(
         'console_scripts': [
             'listener = listener:main',
             'talker = talker:main',
-        ],
-    },
+        ]
+    }
 )

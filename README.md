@@ -4,6 +4,7 @@
 
 - Install ROS2 for your platform, make sure you have sourced the setup files
     - https://github.com/ros2/ros2/wiki/Installation
+    - https://github.com/ros2/ros2/releases
     - Note: For MacOS users, disabling SIP is not necessary to get this boilerplate up and running
 
 ## To Build & Run
